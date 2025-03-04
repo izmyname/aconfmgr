@@ -25,7 +25,7 @@ AddPackage nm-connection-editor               # NetworkManager GUI connection ed
 AddPackage papirus-icon-theme                 # Papirus icon theme
 AddPackage pcmanfm-qt                         # The LXQt file manager, Qt port of PCManFM
 AddPackage poppler                            # PDF rendering library based on xpdf 3.0
-AddPackage qt6ct                              # Qt 6 Configuration Utility
+AddPackage --foreign qt6ct-kde                # Qt 6 Configuration Utility, patched to work correctly with KDE applications
 AddPackage slurp                              # Select a region in a Wayland compositor
 AddPackage swayimg                            # A lightweight image viewer for Wayland display servers
 AddPackage uwsm                               # A standalone Wayland session manager
