@@ -31,6 +31,7 @@ AddPackage --foreign mullvad-vpn-bin          # The Mullvad VPN client app for d
 AddPackage --foreign networkmanager-dmenu-git # control networkmanager via dmenu-compatible launcher
 AddPackage --foreign papirus-folders          # Allows changing the color of folders in Papirus icon theme and its forks
 AddPackage --foreign poweralertd              # UPower-powered power alerter
+AddPackage --foreign visual-studio-code-bin   # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 ### hypr*
 AddPackage hypridle                    # hyprland’s idle daemon
 AddPackage hyprland                    # a highly customizable dynamic tiling Wayland compositor
