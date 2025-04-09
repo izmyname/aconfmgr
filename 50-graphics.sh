@@ -42,6 +42,10 @@ AddPackage hyprpolkitagent             # Simple polkit authentication agent for 
 AddPackage hyprsunset                  # An application to enable a blue-light filter on Hyprland
 AddPackage --foreign hyprsysteminfo    # A tiny qt6/qml application to display information about the running system
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
+### hyprpm - for building plugins
+AddPackage cmake # A cross-platform open-source make system
+AddPackage cpio  # A tool to copy files into or out of a cpio or tar archive
+AddPackage meson # High productivity build system
 
 # mullvad
 SetFileProperty /usr/bin/mullvad-exclude mode 4755
