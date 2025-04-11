@@ -121,12 +121,12 @@ EOF
 f="$(GetPackageOriginalFile pacman /etc/pacman.conf)"
 
 ### set variables for easier editing
-ignorepkg='xorg-server'
+ignorepkg='xorg-server hyprland'
 ignoregroup='xorg'
 
 ### options
-sed -i "/^# Misc options/ a ILoveCandy" "$f" #enable an easter egg
-#sed -i "s/^#IgnorePkg/IgnorePkg/; /IgnorePkg/ s/$/ ${ignorepkg}/" "$f"                                    #ignore packages
+sed -i "/^# Misc options/ a ILoveCandy" "$f"                           #enable an easter egg
+sed -i "s/^#IgnorePkg/IgnorePkg/; /IgnorePkg/ s/$/ ${ignorepkg}/" "$f" #ignore packages
 #sed -i "s/^#IgnoreGroup/IgnoreGroup/; /IgnoreGroup/ s/$/ ${ignoregroup}/" "$f"                            #ignore package groups
 sed -i "s/^#Color/Color/" "$f"                     #colored output
 sed -i "s/^#VerbosePkgLists/VerbosePkgLists/" "$f" #some verbosity
