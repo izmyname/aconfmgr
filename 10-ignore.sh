@@ -1,0 +1,41 @@
+IgnorePath '/.*'
+IgnorePath '/boot/*'
+IgnorePath '/etc/.*'
+IgnorePath '/etc/*.cache'
+IgnorePath '/etc/adjtime' # run hwclock --systohc
+IgnorePath '/etc/ca-certificates/*'
+IgnorePath '/etc/crypttab'
+IgnorePath '/etc/default/*'
+IgnorePath '/etc/fonts/*'
+IgnorePath '/etc/fstab' # genfstab -U /mnt
+IgnorePath '/etc/group*'
+IgnorePath '/etc/gshadow*'
+IgnorePath '/etc/localtime' # ln -sf /usr/share/info/Zone/Subzone /etc/localtime
+IgnorePath '/etc/machine-id'
+IgnorePath '/etc/mkinitcpio.conf' # use mkinitcpio.d
+IgnorePath '/etc/mullvad-vpn/*'
+IgnorePath '/etc/NetworkManager/*'
+IgnorePath '/etc/os-release'
+IgnorePath '/etc/pacman.d/*'
+IgnorePath '/etc/passwd*'
+IgnorePath '/etc/resolv.conf*'
+IgnorePath '/etc/sgml/*'
+IgnorePath '/etc/shadow*'
+IgnorePath '/etc/shells'
+IgnorePath '/etc/ssl/*'
+IgnorePath '/etc/subuid*'
+IgnorePath '/etc/subgid*'
+IgnorePath '/etc/systemd/logind.conf' # use logind.conf.d
+IgnorePath '/etc/systemd/system.conf' # use system.conf.d
+IgnorePath '/etc/ufw/*'               # ufw won't install if there are any ufw configs on the system
+IgnorePath '/etc/userdb'
+IgnorePath '/etc/vconsole.conf'
+IgnorePath '/usr/share/applications/*'
+IgnorePath '/usr/share/glib-2.0/*'
+IgnorePath '/usr/share/icons/*'
+IgnorePath '/usr/share/info/*'
+IgnorePath '/usr/share/mime/*'
+IgnorePath '/usr/share/pkgconfig/*'
+IgnorePath '/usr/lib/*'
+IgnorePath '/swp/swapfile'
+IgnorePath '/var/*'
